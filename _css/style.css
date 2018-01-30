@@ -1,5 +1,6 @@
 body{
   background: #f9e933;
+  w
 }
 
 header{
@@ -13,4 +14,8 @@ header, main, footer{
   min-width: 855px;
 } 
 
+header .container, main .container, footer .container {
+  max-width: 855px;
+
+}
 
