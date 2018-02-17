@@ -52,15 +52,19 @@ main{
     padding: 40px;
 }
 
-main .main{
-  float: left;
-  width: 570px;
+main .tabs a span{
+  display: inline-block;
+  border-radius: 5px 5px 0 0;
+  width: 100px;
+  margin-right: 10px;
+  text-align: center;
+  background: #ddd;
+  padding: 5px;
 }
 
-main .imgmain{
-  float: right;
-  width: 285px;
-}
+  main .tabs a span.active{
+        background: #eee;
+  }
 
 footer{
   border-top: 1px solid #ddd;
